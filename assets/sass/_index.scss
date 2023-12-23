@@ -1,0 +1,522 @@
+// .index_banner{
+//     background-image: url('../images/banerbg.jpg');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     min-height: 100vh;
+// }
+.sectionbg{
+    background: linear-gradient(140deg, rgba(251,0,0,1) 48%, rgba(3, 116, 245, 0.95) 48%);
+    padding: 4rem 0rem;
+}
+.banner_area{
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    border: 1rem solid white;
+}
+// banner image 
+.banner_image{
+    position: relative;
+    height: 45rem;
+    width: 30rem;
+    width: auto;
+    background: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-top: 1rem solid black;
+    border-bottom: 1rem solid #000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    img{
+
+        height: 45rem;
+        width:auto;
+        background: white;
+    }
+}
+.banner_text{
+    padding: 1rem;
+    h4{
+        color: white;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        border-top: .2rem solid white;
+        display: inline;
+    }
+    h1{
+        font-size: 6.5rem;
+        font-weight: 700;
+        font-family: 'Roboto',sans-serif;
+    }
+    p{
+        color: white;
+        padding-bottom: 1rem;
+    }
+    button{
+        border: none;
+        padding: 1rem 1.5rem;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        &:hover{
+            background: transparent;
+            border: .1rem solid #000;
+            transition: .35s all;
+            -webkit-transition: .35s all;
+            -moz-transition: .35s all;
+            -ms-transition: .35s all;
+            -o-transition: .35s all;
+            a{
+                color: white;
+            }
+}
+        a{
+            color: #000;
+            text-transform: uppercase;
+            font-weight: 400;
+
+        }
+}
+}
+// banner css end 
+.banner_over_content{
+    margin-top: -3rem;
+}
+.top_con{
+    background: linear-gradient(113deg, rgba(249,249,249,1) 29%, rgba(255,255,255,1) 29%);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 1rem  0rem;
+    border-radius: .5rem;
+    &:hover{
+        background: #fff;
+        border-left: .1rem solid red ;
+        border-right: .1rem solid red ;
+        transition: .35s all;
+        border-top: 1rem solid red ;
+    }
+
+}
+.icon{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem 1rem ;
+    color: red;
+    span{
+        font-size: 5rem;
+    }
+}
+.top_con_d{
+    h2{
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.7rem;
+        color: #000;
+        text-align: left;
+    }
+}
+// banner top content css end 
+.index_about_image{
+    background: #fff;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    img{
+        height: 50rem;
+        width: auto;
+    }
+}
+.index_about_conent{
+    padding: 1rem;
+    h5{
+        color: red;
+        font-weight: 600;
+    }
+    h1{
+        font-weight: 700;
+        font-family: 'Roboto',sans-serif;
+        font-size: 4.5rem;
+        span{
+            font-size: 5rem;
+            color: red;
+        }
+    }
+    ul{
+        background: #e0e0e0;
+        padding: 1rem ;
+       
+     li{
+        font-size: 1.7rem;
+        color: #000;
+        padding: 0rem 2rem;
+        span{
+            font-size: 2rem;
+            color: green;
+        }
+    }
+    }
+}
+// about end here 
+.service_items{
+    margin: 0rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    overflow: hidden;
+    &:hover .service_image{
+       img{
+        opacity: 75%;
+        transition: 1s all;
+       }
+ 
+    }
+    &:hover .servoce_content{
+        margin-top: -3rem;
+        transition: .45s all;
+        border-radius: 1rem;
+        p{
+            opacity: 0;
+        }
+        h2{
+            color: red;
+            transition: .35s all;
+        }
+
+    }
+    &:hover .service_offer{
+        opacity: 1;
+        transition: 1s all;
+        width: 10rem;
+    }
+    .service_image{
+        position: relative;
+        background: red;
+        overflow: hidden;
+
+        img{
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+
+        }
+    }
+    .servoce_content{
+        text-align: center;
+        background: #ffff;
+        margin: 0rem 1.5rem;
+        p{
+            color: red;
+            font-weight: 500;
+        }
+        h2{
+            font-weight: 700;
+            padding: 1rem 0rem ;
+        }
+    }
+    .service_offer{
+        position: absolute;
+        background: white;
+        top: 0;
+        left: 0;
+        height: 6rem;
+        width: 6rem;
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        align-items: center;
+        opacity: 0;
+        
+        span{
+            font-size: 3rem;
+            color: red;
+        }
+    }
+}
+// service css end 
+.why_choose_image{
+    background-image: url('../images/choose\ image.webp');
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    
+}
+.choose_us_image{
+    position: relative;
+    img{
+        height: 70rem;
+    }
+    .compleate_project{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        background: #fff;
+        text-align: center;
+        padding: 1rem ;
+        h1{
+            font-size: 7rem;
+            color: rgb(252, 107, 107);
+        }
+    }
+}
+
+
+.chh:hover .chcon{
+    background: rgb(19, 36, 46);
+    transition: 1s all;
+}
+.choose_us_content{
+    padding: 3rem 1rem ;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   
+    h5{
+        font-size: 2.2rem;
+        font-weight: 600;
+        font-family: 'roboto',sans-serif;
+        color: red
+    }
+    h1{
+        font-size: 5.2rem;
+        color: #fff;
+        font-weight: 700;
+        span{
+            color: red;
+            font-size: 6rem;
+            font-weight: 900;
+        }
+    }
+    p{
+        color: white;
+        padding-bottom: 1.5rem;
+    }
+    ul{
+        padding: 1rem;
+        li{
+            color: white;
+            font-size: 1.6rem;
+            span{
+                color: green;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+// awesome service start here 
+.awesome_service{
+    background: linear-gradient(153deg, rgba(240,135,135,1) 16%, rgba(255,255,255,1) 17%, rgba(255,251,251,1) 83%, rgba(240,135,135,1) 84%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 1rem ;
+    &:hover{
+        border-left: .5rem solid red;
+        border-right: .5rem solid red;
+        transition: .35s all ;
+        border-radius: 1rem;
+        background: white;
+    }
+    .awesome_icon{
+        text-align: center;
+        padding: .5rem;
+        span{
+            font-size: 8rem;
+            color: rgb(240, 135, 135);
+            padding: 2rem;
+            border-radius: 50%;
+        }
+
+    }
+    h1{
+        text-align: center;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    ul{
+        padding: 1rem;
+        li{
+            font-size: 1.7rem;
+            padding-left:2rem;
+            &:hover{
+                padding-left: 2.5rem;
+                transition: .35s all;
+                span{
+                    padding-left: 1.5rem;
+                    transition: .35s all;
+                }
+            }
+            span{
+                color: green;
+                padding: 0rem 1rem ;
+            }
+        }
+    }
+}
+// awesome service end here 
+.team_side_content{
+    padding: 1rem;
+    p:first-child{
+        color: red;
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+   
+    h1{
+        font-weight: 900;
+        font-family: 'Roboto',sans-serif;
+        font-size:4.5rem;
+        padding: 1rem 0rem ;
+        span{
+            color: red;
+            font-size: 4.9rem;
+        }
+    }
+    ul{
+        display: flex;
+        padding: 2rem 1rem;
+        li{
+            font-size: 1.7rem;
+            padding: 0rem 1rem ;
+            color: green;
+            span{
+                color: red ;
+                font-size: 2.2rem;
+            }
+        }
+    }
+}
+.team_image{
+    height: 30rem;
+    width: auto;
+    object-fit: cover;
+}
+//  index team end here 
+.projects{
+
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    h1{
+        font-size: 6.5rem;
+        color: rgb(255, 255, 255);
+    }
+    h2{
+        color: white;
+    }
+  
+}
+.why-chosebg2{
+    background: linear-gradient(90deg, rgba(255,2,2,1) 46%, rgba(255,255,255,0) 46%);
+}
+// counter end here 
+// index testimonials css start here 
+.thead{
+    padding: 3rem 0rem;
+    h5{
+        font-size: 2.5rem;
+        color: red;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 4.5rem;
+        font-weight: 700;
+        span{
+            font-size: 5.5rem ;
+            color: red ;
+        }
+    }
+}
+.client_testi_item{
+    background: linear-gradient(135deg, rgba(217,216,216,1) 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 98%, rgba(245,0,0,1) 98%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 2rem ;
+    margin: 1rem;
+    border-top: .3rem solid red;
+    transition: 1s all;
+    &:hover{
+        background: linear-gradient(128deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 58%, rgba(245,0,0,1) 58%);
+        transition: 1s all;
+        border-top: .3rem solid black;
+    }
+    .t_client_info{
+        display: flex;
+        h1{
+            font-weight: 700;
+            font-size: 3.2rem;
+        }
+        p{
+            color: red;
+            font-weight: 500;
+            font-size: 1.7rem;
+            border-bottom: .1rem solid black;
+            display: inline;
+        }
+    }
+    .testi_image{
+        padding: 0rem 2rem ;
+        img{
+            height: 10rem;
+            width: auto;
+            object-fit: cover;
+            border-radius: 1rem ;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            border: .1rem solid black;
+        }
+    }
+    .clints_review{
+        padding: 2rem;
+        p:first-child{
+            font-size: 1.9rem;
+            color: #000;
+            font-weight:300;
+            font-style: italic; 
+        }
+       
+    }
+}
+// index testi css end 
+.subscriber{
+    padding: 2rem 0rem;
+    h1{
+        color: White;
+        font-weight: 700;
+        font-size: 4.9rem;
+    }
+}
+.subscriber-form{
+    padding: 2rem;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+  
+        .inputarea{
+            input{
+                height: 5rem;
+                width: 40rem;
+                font-size: 1.8rem;
+            }
+            button{
+                font-size: 1.8rem;
+            }
+        }
+}

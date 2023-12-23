@@ -1,0 +1,141 @@
+.contact_banner_image{
+    background-image: url('../images/contactimage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.contact_banner{
+    .banner_info{
+        padding: 6rem 0rem ;
+        h1{
+            color: red;
+            font-size: 6rem;
+        }
+    }
+    .bottom_menu{
+        background: red;
+
+        ul{
+            li{
+                display: inline-block;
+                padding: 1rem 1.5rem;
+                a{
+                    color: #fff;
+                    font-size: 2rem;
+                    &:hover{
+                        color: #000;
+                        transition: .35s all ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// banner css end here 
+.contact_details_top{
+    padding: 3rem 0rem;
+    p:first-child{
+        color: red;
+        font-weight: 600;
+    }
+    h1{
+        font-weight: 700;
+        padding: 1rem 0rem;
+        &::after{
+            width: 8rem;
+            height: .5rem;
+            display: block;
+            background: red;
+            content: '';
+            bottom: 1rem;
+        }
+
+    }
+}
+// 
+.contact_information{
+    margin-top: 2rem;
+    padding: 1rem ;
+   &:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: .35s all ;
+   }
+    .contact_icon{
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        align-items: center;
+        padding:0rem  2rem ;
+        width: 25%;
+        span{
+            font-size: 4.5rem;
+            color: red;
+        }
+    }
+    .contact_infos{
+        justify-content: center;
+        justify-items: center;
+        display: block;
+        align-items: center;
+        width: 75%;
+        padding: 1rem 0rem;
+        h1{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+    }
+
+
+}
+.form-control{
+ height: 4rem;
+ font-size: 1.5rem;
+}
+.form-label{
+    font-size: 1.7rem;
+    padding-inline-start: 1rem;
+}
+.contact_submit_button{
+    font-size:1.6rem
+}
+.textarea{
+    font-size: 1.7rem;
+    width: 100%;
+    padding: 1rem;
+}
+.placeholder{
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

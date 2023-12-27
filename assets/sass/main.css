@@ -86,6 +86,9 @@
   html {
     font-size: 62.5%;
   }
+  body {
+    overflow-x: hidden;
+  }
   .main_menu {
     display: block;
   }
@@ -182,6 +185,9 @@
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 62.5%;
+  }
+  body {
+    overflow-x: hidden;
   }
   .main_menu {
     display: block;
@@ -758,6 +764,9 @@ footer {
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 62.5%;
+  }
+  body {
+    overflow-x: hidden;
   }
   .main_menu {
     display: block;
@@ -1439,6 +1448,227 @@ a {
 }
 .subscriber-form .inputarea button {
   font-size: 1.8rem;
+}
+
+.about_banner_item {
+  position: relative;
+  height: 70rem;
+  width: 100%;
+  overflow-x: hidden;
+}
+.about_banner_item .about_banner_image {
+  height: 70rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.about_banner_item .about_banner_image img {
+  height: 70rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  animation: scale 5s linear infinite;
+  overflow: hidden;
+}
+@keyframes scale {
+  100% {
+    transform: scale(1.5);
+  }
+}
+.about_banner_item .about_banner_text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  width: 70rem;
+  height: 70rem;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.about_banner_item .about_banner_text .about_text_banner {
+  padding: 10rem;
+}
+.about_banner_item .about_banner_text .about_text_banner h5 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+}
+.about_banner_item .about_banner_text .about_text_banner h1 {
+  font-size: 4.7rem;
+  font-weight: 900;
+  padding: 0.5rem 0rem;
+}
+
+.owl-carousel .owl-item.active .about_banner_item .about_banner_text .about_text_banner h5 {
+  animation: zoomIn 2s linear;
+}
+
+.owl-carousel .owl-item.active .about_banner_item .about_banner_text .about_text_banner h1 {
+  animation: zoomIn 2s linear;
+}
+
+.owl-carousel .owl-item.active .about_banner_item .about_banner_text .about_text_banner p {
+  animation: zoomIn 2s linear;
+}
+
+.about_sectionbg {
+  background-image: url("../images/ptrn/aboutbg.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.aboutbg-color {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.about_about_image {
+  position: relative;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.about_about_image img {
+  border-radius: 1rem;
+  height: 40rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about_about_image .about_another_image {
+  position: absolute;
+  bottom: -4rem;
+  right: 0;
+}
+.about_about_image .about_another_image img {
+  height: 20rem;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about_about_contnent {
+  padding: 2rem;
+}
+.about_about_contnent h5 {
+  color: red;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.5rem;
+}
+.about_about_contnent h5::after {
+  content: "";
+  height: 0.2rem;
+  width: 8rem;
+  background: green;
+  display: inline-block;
+  font-size: 4rem;
+}
+.about_about_contnent h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.about_about_contnent .about_focuse {
+  justify-content: left;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+}
+.about_about_contnent .about_focuse .focus_icon {
+  padding: 1rem 3rem;
+}
+.about_about_contnent .about_focuse .focus_icon span {
+  font-size: 4.5rem;
+  color: green;
+}
+
+.about_intro img {
+  height: 50rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about_intro_content {
+  padding: 1rem 2rem;
+}
+.about_intro_content h5 {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.about_intro_content h5::after, .about_intro_content h5::before {
+  content: " ";
+  height: 0.5rem;
+  width: 4rem;
+  background: red;
+  display: inline-block;
+  bottom: 1rem;
+}
+.about_intro_content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.about_intro_content p {
+  text-align: justify;
+}
+
+.about_achivment {
+  background-image: url("../images/choose image.webp");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-around;
+  padding: 3rem 0rem;
+  border-left: 0.7rem solid red;
+  border-right: 0.7rem solid red;
+  border-radius: 1.3rem;
+}
+.about_achivment:hover .achiv {
+  background: #fff;
+  border-radius: 1rem;
+  border-right: 0.2rem solid red;
+  transition: 1s all;
+}
+.about_achivment:hover .achiv h1 {
+  color: #000;
+}
+.about_achivment:hover .achiv p {
+  color: green;
+}
+.about_achivment .achiv {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+.about_achivment .achiv h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #fff;
+}
+.about_achivment .achiv p {
+  color: #fff;
+}
+
+.accordion-item h2 {
+  border-top: 0.1rem solid green;
+  padding: 0.1rem;
+  color: #fff;
+}
+.accordion-item h2 button {
+  font-size: 2.2rem;
+}
+
+.accordion-body p {
+  font-size: 1.7rem;
 }
 
 .team_banner_bg_image {
